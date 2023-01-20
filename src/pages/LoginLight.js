@@ -1,10 +1,14 @@
 import React from "react";
-import '../css/Login.css';
+import '../css/LoginLight.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
-const Login = () => (
+
+
+
+const LoginLight = () => (
+    
     <div className="container">
         <div className="logo">
         </div>
@@ -26,4 +30,4 @@ const Login = () => (
     </div>
 )
 
-export default Login;
+export default LoginLight;
