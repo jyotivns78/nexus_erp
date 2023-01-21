@@ -11,6 +11,7 @@ const LoginLight = () => (
     
     <div className="container">
         <div className="logo">
+            
         </div>
         <div className="form">
             <form>

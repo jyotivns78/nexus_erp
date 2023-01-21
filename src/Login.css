@@ -2,7 +2,7 @@
 
 
 .container {
-    background-image: url('../images/login/Dark\ Slide.png');
+    background-image: url('./images/login/Dark\ Slide.png');
     min-width: 100%;
     min-height: 100vh;
     background-size: 100% 100%;
@@ -19,7 +19,7 @@
     height: 90px;
     left: 100px;
     top: 267px;
-    background: url("../images/login/image\ 50.png");
+    background: url("./images/login/image\ 65.png");
     border: 1px solid #000000;
 }
 

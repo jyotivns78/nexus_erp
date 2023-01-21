@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.container 
+{
+    background-color: #000000;
+    min-width: 100%;
+    min-height: 1024px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.left
+{
+    min-height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.personal-info .number-logo {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 512px;
+    background: #75CC68;
+    border-radius: 25px;
+}
+
+
+.personal-info .dashed {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 70px;
+    top: 608px;
+    border: 2px dashed #75CC68;
+    transform: rotate(90deg);
+}
+
+/* Right Section Start */
+
+
+
+.education-des h3
+{
+    position: absolute;
+    width: 254px;
+    height: 36px;
+    left: 560px;
+    top: 146px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.education-des span
+{
+    position: absolute;
+    left: 560px;
+    width: 559px;
+    height: 36px;
+    top: 187px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #858585;
+}
+
+
+.form .one
+{
+    width: 288px;
+    height: 31px;
+    position: absolute;
+    left: 560px;
+    top: 278px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+.form .two
+{
+    width: 288px;
+    height: 31px;
+    position: absolute;
+    left: 1013px;
+    top: 278px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+.form .input1
+{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 560px;
+    top: 327px;
+
+    background: #1B1B29;
+    border-radius: 30px;
+}
+
+.form .input2
+{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 1008px;
+    top: 327px;
+
+    background: #1B1B29;
+    border-radius: 30px;
+}
+
+
+.documents 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 775px;
+    position: absolute;
+    left: 510px;
+    top: 432px;
+    margin-left: 40px;
+}
+
+.documents .doc-div
+{
+    width: 25%;
+    height: 40%;
+    min-height: 230px;
+    min-width: 140px;
+    padding: 10px 10px;
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 10px;
+    margin: 60px 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.documents h3
+{
+    position: absolute;
+    width: 226px;
+    height: 31px;
+    left: 15px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+.upload-icon span
+{
+    /* position: absolute; */
+    width: 43px;
+    height: 29px;
+    /* left: 45px; */
+    /* top: 40px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.upload-icon .pen-icon
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* left: 18px; */
+    top: 100px;
+    color: #FFFFFF;
+}
+
+
+/*  */
+
+.upload-icon .pen
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 70px;
+    top: 110px;
+    background: #1E1E2D;
+    border-radius: 50px;
+    
+}
+
+.upload-icon .pen .pen-icon
+{
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    width: 20px;
+    height: 20px;
+    color: #545454;
+}
+
+
+.right button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 1050px;
+    top: 800px;
+    background-color: #066DE3;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+

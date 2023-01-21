@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.container 
+{
+    background-color: #000000;
+    min-width: 100%;
+    min-height: 1024px;
+}
+
+
+
+.left {
+    position: absolute;
+    width: 500px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: url("../images/onboarding/image 74.png");
+}
+
+.left .logo img {
+    
+    position: absolute;
+    width: 478px;
+    height: 99px;
+    left: 11px;
+    top: 180px;
+}
+
+.Logo {
+    background-image: url(../images/login/logonexus.png);
+}
+
+.profile .number-logo {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 383px;
+    background: #75CC68;
+    border-radius: 25px;
+}
+
+.profile .number-logo span {
+    position: absolute;
+    width: 16px;
+    height: 30px;
+    left: 26px;
+    top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.profile .description h3
+{
+    position: absolute;
+    width: 82px;
+    height: 165px;
+    top: 383px;
+    left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.profile .description p
+{
+    position: absolute;
+    width: 192px;
+    height: 36px;
+    left: 165px;
+    top: 422px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.profile .dashed {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 60px;
+    top: 468px;
+    border: 2px dashed #75CC68;
+    transform: rotate(90deg);
+}
+
+/* Personal Info */
+
+.personal-info .number-logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 512px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.personal-info .number-logo span {
+    position: absolute;
+    width: 16px;
+    height: 30px;
+    left: 23px;
+    top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.personal-info .description h3
+{
+    position: absolute;
+    width: 165px;
+    height: 31px;
+    top: 512px;
+    left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.personal-info .description p
+{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 165px;
+    top: 551px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+.personal-info .dashed {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 70px;
+    top: 608px;
+    border: 2px dashed #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+/* Educational Details */
+
+.educational-detail .number-logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 641px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.educational-detail .number-logo span {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    left: 23px;
+    top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.educational-detail .description h3
+{
+    position: absolute;
+    width: 242px;
+    height: 31px;
+    top: 641px;
+    left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.educational-detail .description p
+{
+    position: absolute;
+    width: 218px;
+    height: 18px;
+    left: 165px;
+    top: 680px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+.educational-detail .dashed {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 70px;
+    top: 734px;
+    border: 2px dashed #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+/* Employment Details */
+
+.employment-detail .number-logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 770px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.employment-detail .number-logo span {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    left: 23px;
+    top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.employment-detail .description h3
+{
+    position: absolute;
+    width: 248px;
+    height: 31px;
+    top: 770px;
+    left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.employment-detail .description p
+{
+    position: absolute;
+    width: 236px;
+    height: 18px;
+    left: 165px;
+    top: 809px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+.employment-detail .dashed {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 70px;
+    top: 865px;
+    border: 2px dashed #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+/* Document Details */
+
+.document-details .number-logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 68px;
+    top: 899px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.document-details .number-logo span {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    left: 23px;
+    top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.document-details .description h3
+{
+    position: absolute;
+    width: 221px;
+    height: 31px;
+    top: 899px;
+    left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.document-details .description p
+{
+    position: absolute;
+    width: 208px;
+    height: 18px;
+    left: 165px;
+    top: 938px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+.document-details .dashed {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 70px;
+    top: 992px;
+    border: 2px dashed #FFFFFF;
+    transform: rotate(90deg);
+}
+
+/* Right container */
+
+.profile-pic h3
+{
+    position: absolute;
+    width: 227px;
+    height: 39px;
+    left: 855px;
+    top: 196px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.profile-pic .picture
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 870px;
+    top: 250px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.profile-pic .picture img
+{
+    position: absolute;
+    width: 126px;
+    height: 112px;
+    left: 35px;
+    top: 35px;
+}
+
+.UserLogo
+{
+    background-image: url(../images/onboarding/user.png);
+}
+
+.profile-pic .picture .pen
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 5px;
+    background: #1E1E2D;
+    border-radius: 50px;
+    
+}
+
+.pen-icon
+{
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    width: 20px;
+    height: 20px;
+    color: #545454;
+}
+
+.about p
+{
+    position: absolute;
+    width: 646px;
+    height: 52px;
+    left: 692px;
+    top: 512px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #858585;
+}
+
+
+.about span {
+    position: absolute;
+    width: 646px;
+    height: 42px;
+    left: 692px;
+    top: 542px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #858585;
+}
+
+.right button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 1050px;
+    top: 658px;
+    background-color: #066DE3;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+
+/* .side-scroll
+{
+    position: absolute;
+    width: 12px;
+    height: 700px;
+    left: 488px;
+    top: 7px;
+    background: #212E48;
+    border-radius: 3px;
+} */
+
+
