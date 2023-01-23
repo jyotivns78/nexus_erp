@@ -38,6 +38,7 @@ const AdminProfile = () => {
                     <div className="home">
                         <h3>Organization Documents</h3>
                     </div>
+                    
                 </div>
             </div>
             <div className="admin-right">
@@ -88,6 +89,7 @@ const AdminProfile = () => {
                         <FontAwesomeIcon icon={faEye} className="eye"></FontAwesomeIcon>
                         
                     </div>
+                    
                 </div>
             </div>
         </div>
