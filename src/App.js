@@ -1,10 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Login from './Login';
+
 // import LoginLight from './pages/LoginLight';
+import LoginDark from './pages/LoginDark';
 import Profile from './pages/Profile';
 import Personal from './pages/Personal';
-import Education from './pages/Education';
+import AdminProfile from './pages/AdminProfile';
+
 
 
 function App() {
@@ -12,10 +14,11 @@ function App() {
    <Router>
     <Routes>
       {/* <Route path='/' element={ <LoginLight /> } /> */}
-      {/* <Route path='/dark' element={ <Login /> } /> */}
+      
+      <Route path='/' element={ <LoginDark /> } />
       <Route path='/profile' element={ <Profile /> } />
       <Route path='/personal' element={ <Personal /> } />
-      <Route path='/education' element={ <Education /> } />
+      <Route path='/admin' element={ <AdminProfile /> } />
     </Routes>
    </Router>
   );

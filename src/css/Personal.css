@@ -56,7 +56,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 27px;
     line-height: 36px;
 
     color: #FFFFFF;
@@ -73,7 +73,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 36px;
 
     color: #858585;
@@ -85,13 +85,13 @@
     width: 288px;
     height: 31px;
     position: absolute;
-    left: 560px;
+    left: 555px;
     top: 278px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 31px;
 
     color: #FFFFFF;
@@ -102,13 +102,13 @@
     width: 288px;
     height: 31px;
     position: absolute;
-    left: 1013px;
+    left: 960px;
     top: 278px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 31px;
 
     color: #FFFFFF;
@@ -118,9 +118,9 @@
 {
     position: absolute;
     width: 300px;
-    height: 45px;
-    left: 560px;
-    top: 327px;
+    height: 42px;
+    left: 555px;
+    top: 322px;
 
     background: #1B1B29;
     border-radius: 30px;
@@ -130,9 +130,9 @@
 {
     position: absolute;
     width: 300px;
-    height: 45px;
-    left: 1008px;
-    top: 327px;
+    height: 42px;
+    left: 960px;
+    top: 322px;
 
     background: #1B1B29;
     border-radius: 30px;
@@ -148,7 +148,7 @@
     width: 775px;
     position: absolute;
     left: 510px;
-    top: 432px;
+    top: 435px;
     margin-left: 40px;
 }
 
@@ -174,13 +174,13 @@
     position: absolute;
     width: 226px;
     height: 31px;
-    left: 15px;
-    top: 10px;
+    left: 10px;
+    top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 31px;
 
     color: #FFFFFF;
@@ -236,6 +236,7 @@
     height: 20px;
     color: #545454;
 }
+
 
 
 .right button {

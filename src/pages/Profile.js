@@ -97,7 +97,7 @@ return (
                 <p>How about uploading a profile picture of yours ? </p>
                 <span>Also, tell us a bit more about your basic academic & professional details</span>
             </div>
-            <button onClick={() => navigate("/personal")}>Continue</button>
+            <button onClick={() => navigate("/personal")} className="profilebutton">Continue</button>
         </div>
         
     </div>
