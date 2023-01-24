@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.account-container
+{
+    background: #000000;
+    width: 100%;
+    height: 100vh;
+}
+
+.account-right
+{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+
+.account-right .acoount-header
+{
+    position: absolute;
+    width: 835px;
+    height: 69px;
+    /* left: 10px; */
+    top: 35px;
+
+    background: #2B2B2E;
+    border-radius: 10px;
+}
+
+.account-right .acoount-header h3
+{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 214px;
+    height: 26px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.account-right .acoount-header span
+{
+    position: absolute;
+    top: 44px;
+    left: 15px;
+    width: 214px;
+    height: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+}
+
+
+.change-password
+{
+    position: absolute;
+    width: 407px;
+    height: 459px;
+    top: 140px;
+    left: 5px;
+
+    background: #28282B;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.change-password .dash-border1
+{
+    box-sizing: border-box;
+    height: 50px;
+    background: #28282B;
+    border: 0.5px dashed #5B5B5D;
+    box-shadow: 6.55617px 6.55617px 16.3904px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+
+.change-password .dash-border1 h3
+{
+    position: absolute;
+    width: 206px;
+    height: 21px;
+    left: 90px;
+    top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFCFC;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.change-password span
+{
+    position: absolute;
+    left: 30px;
+    width: 220px;
+    height: 14px;
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.change-password input
+{
+    position: absolute;
+    left: 20px;
+    padding-top: 40px;
+    width: 350px;
+    height: 30px;
+    background: #424545;
+    border-radius: 14px;
+}
+
+
+.update-password
+{
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    left: 30px;
+    top: 390px;
+    background: #066DE3;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.cancel
+{
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    left: 240px;
+    top: 390px;
+    background: #424545;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.mail-account
+{
+    position: absolute;
+    width: 407px;
+    height: 459px;
+    top: 140px;
+    left: 432px;
+
+    background: #28282B;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.mail-account .dash-border1
+{
+    box-sizing: border-box;
+    height: 50px;
+    background: #28282B;
+    border: 0.5px dashed #5B5B5D;
+    box-shadow: 6.55617px 6.55617px 16.3904px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+}
+
+.mail-account .dash-border1 h3
+{
+    position: absolute;
+    width: 306px;
+    height: 21px;
+    left: 55px;
+    top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFCFC;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mail-con
+{
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 20px;
+    top: 140px;
+    background: #0f417a;
+    border: 1px dashed #0d5ab3;
+    border-radius: 10px;
+}
+
+.shield-icon
+{
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    left: 20px;
+    top: 40px;
+    color: #066DE3;
+}
+
+.mail-con h3
+{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    left: 50px;
+    top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.enable
+{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+    background: #066DE3;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

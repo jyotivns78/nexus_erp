@@ -13,7 +13,7 @@ const DropDownProfile = () => {
                 <div className="line1"></div>
                 <br></br>
                 <li>Mode</li>
-                <li>Account Setting</li>
+                <li onClick={() => navigate('/mysetting')}>Account Setting</li>
                 <li>Logout</li>
             </ul>
         </div>

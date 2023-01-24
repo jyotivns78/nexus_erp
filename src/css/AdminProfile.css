@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
 .admin-container
 {
     background-color: #000000;
@@ -10,20 +14,20 @@
 .admin-left {
     position: absolute;
     width: 440px;
-    height: 82vh;
+    height: 90vh;
     left: 30px;
     top: 44px;
-
+    /* background: #13131f; */
     background: #0D0D12;
     border-radius: 15px;
 }
 
 .admin-left img {
     position: absolute;
-    width: 248px;
+    width: 208px;
     height: 52px;
-    left: 40px;
-    top: 44px;
+    left: 30px;
+    top: 24px;
 }
 
 .Nlogo {
@@ -32,10 +36,10 @@
 
 .profile-logo img {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     left: 340px;
-    top: 40px;
+    top: 25px;
     border-radius: 50px;
     cursor: pointer;
     /* background-color: aquamarine; */
@@ -49,8 +53,8 @@
     position: absolute;
     width: 247px;
     height: 33px;
-    left: 66px;
-    top: 140px;
+    left: 46px;
+    top: 120px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -65,8 +69,8 @@
     position: absolute;
     width: 26px;
     height: 26px;
-    left: 300px;
-    top: 144.88px;
+    left: 280px;
+    top: 123.88px;
     color: rgb(236, 236, 56);
 }
 
@@ -78,15 +82,15 @@
     width: 400px;
     position: absolute;
     left: 0px;
-    top: 135px;
+    top: 105px;
     margin-left: 20px;
 }
 
 .option-div .home {
-    width: 100px;
-    height: 100px;
-    min-height: 110px;
-    min-width: 110px;
+    width: 90px;
+    height: 90px;
+    min-height: 100px;
+    min-width: 100px;
     padding: 10px 10px;
     /* border: 1px solid #FFFFFF; */
     border-radius: 10px;
@@ -94,7 +98,8 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    background: #2B2B40;
+    /* background: #2B2B40; */
+    background: #212135;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -102,8 +107,8 @@
     position: absolute;
     width: 39px;
     height: 20px;
-    left: 25px;
-    top: 47px;
+    left: 12px;
+    top: 40px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -324,6 +329,7 @@
     padding-left: 5px;
     border-radius: 15px;
     background-color: #2B2B40;
+    
     border: 1px solid gray;
     font-size: 23px;
     

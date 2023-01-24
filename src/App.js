@@ -7,6 +7,7 @@ import Profile from './pages/Profile';
 import Personal from './pages/Personal';
 import AdminProfile from './pages/AdminProfile';
 import MyProfile from './pages/MyProfile';
+import AccountSetting from './pages/AccountSetting';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/personal' element={ <Personal /> } />
       <Route path='/admin' element={ <AdminProfile /> } />
       <Route path='/myprofile' element={ <MyProfile /> } />
+      <Route path='/mysetting' element={ <AccountSetting /> } />
     </Routes>
    </Router>
   );

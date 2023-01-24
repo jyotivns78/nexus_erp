@@ -10,8 +10,6 @@ import DropDownProfile from "../components/DropDownProfile";
 
 
 
-
-
 const AdminProfile = () => {
 
     const [openProfile, setOpenProfile] = useState(false);
@@ -19,6 +17,7 @@ const AdminProfile = () => {
     return (
         <div className="admin-container">
             <div className="admin-left">
+                
                 <div className="logo-with-profile-image">
                     <img src={ nlogo } alt="Nlogo" />
                     
@@ -75,7 +74,7 @@ const AdminProfile = () => {
                 <div className="main-container">
                     <div className="div1">
                         <h3>Agreement of Documents</h3>
-                        <h4>Description</h4>
+                        {/* <h4>Description</h4> */}
                         <p>A Promise arrangement between two or more parties</p>
                         <FontAwesomeIcon icon={faFileArrowUp} className="file"></FontAwesomeIcon>
                         <span>Date -   01-02-2023</span>
@@ -85,7 +84,7 @@ const AdminProfile = () => {
 
                     <div className="div1">
                         <h3>Agreement of Documents</h3>
-                        <h4>Description</h4>
+                        {/* <h4>Description</h4> */}
                         <p>A Promise arrangement between two or more parties</p>
                         <FontAwesomeIcon icon={faFileArrowUp} className="file"></FontAwesomeIcon>
                         <span>Date -   01-02-2023</span>
@@ -95,7 +94,7 @@ const AdminProfile = () => {
 
                     <div className="div1">
                         <h3>Agreement of Documents</h3>
-                        <h4>Description</h4>
+                        {/* <h4>Description</h4> */}
                         <p>A Promise arrangement between two or more parties</p>
                         <FontAwesomeIcon icon={faFileArrowUp} className="file"></FontAwesomeIcon>
                         <span>Date -   01-02-2023</span>
@@ -106,7 +105,7 @@ const AdminProfile = () => {
 
                     <div className="div1">
                         <h3>Agreement of Documents</h3>
-                        <h4>Description</h4>
+                        {/* <h4>Description</h4> */}
                         <p>A Promise arrangement between two or more parties</p>
                         <FontAwesomeIcon icon={faFileArrowUp} className="file"></FontAwesomeIcon>
                         <span>Date -   01-02-2023</span>
