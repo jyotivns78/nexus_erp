@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import '../css/AdminProfile.css';
 import nlogo from '../images/login/logonexus.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,19 +6,37 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import adminpic from '../images/login/Ellipse.png';
 import { faFileArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons"; 
+import DropDownProfile from "../components/DropDownProfile";
+
+
+
 
 
 const AdminProfile = () => {
+
+    const [openProfile, setOpenProfile] = useState(false);
 
     return (
         <div className="admin-container">
             <div className="admin-left">
                 <div className="logo-with-profile-image">
                     <img src={ nlogo } alt="Nlogo" />
+                    
                     <div className="profile-logo">
-                        <img src={ adminpic } alt="AdminPic" />
+                        <img src={ adminpic } alt="AdminPic" onClick={() => setOpenProfile((prev) => !prev)}/>
+                    
                     </div>
+                    
+                    {/* Dropdown Menu */}
+
+                    
+                    {/* Dropdown Menu */}
+
+
+
+                
                 </div>
+                
                 
                 <div className="des">
                     <h3>Welcome Back Admin</h3>
@@ -40,6 +58,12 @@ const AdminProfile = () => {
                     </div>
                     
                 </div>
+                {
+                    openProfile &&  <DropDownProfile />
+                }
+
+
+               
             </div>
             <div className="admin-right">
                 <div className="heading-div">
@@ -95,5 +119,7 @@ const AdminProfile = () => {
         </div>
     )
 }
+
+
 
 export default AdminProfile;

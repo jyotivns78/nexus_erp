@@ -37,6 +37,7 @@
     left: 340px;
     top: 40px;
     border-radius: 50px;
+    cursor: pointer;
     /* background-color: aquamarine; */
 }
 
@@ -310,11 +311,57 @@
 
 
 
+/* Dropdown Menu */
 
+.dropDownProfile
+{
+    position: absolute;
+    top: 120px;
+    right: 1.5rem;
+    width: 280px;
+    height: 290px;
+    padding: 20px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background-color: #2B2B40;
+    border: 1px solid gray;
+    font-size: 23px;
+    
+}
 
+.dropDownProfile::before
+{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: #2B2B40;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
 
+.dropDownProfile ul li
+{
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: #C2B7B7;
+    padding-top: 15px;
+}
 
+.dropDownProfile ul li:hover
+{
+    color: #066BDE;
+}
 
+.dropDownProfile ul .line1
+{
+    height: 1px;
+    background: #4E4E51;
+}
 
 
 

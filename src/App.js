@@ -6,7 +6,7 @@ import LoginDark from './pages/LoginDark';
 import Profile from './pages/Profile';
 import Personal from './pages/Personal';
 import AdminProfile from './pages/AdminProfile';
-
+import MyProfile from './pages/MyProfile';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <Route path='/profile' element={ <Profile /> } />
       <Route path='/personal' element={ <Personal /> } />
       <Route path='/admin' element={ <AdminProfile /> } />
+      <Route path='/myprofile' element={ <MyProfile /> } />
     </Routes>
    </Router>
   );
