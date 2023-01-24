@@ -83,6 +83,7 @@
     box-sizing: border-box;
     height: 50px;
     background: #28282B;
+    /* background: #D0D2D3; */
     border: 0.5px dashed #5B5B5D;
     box-shadow: 6.55617px 6.55617px 16.3904px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
@@ -133,6 +134,7 @@
     height: 30px;
     background: #424545;
     border-radius: 14px;
+    font-size: 20px;
 }
 
 

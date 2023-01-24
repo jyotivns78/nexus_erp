@@ -14,7 +14,7 @@ const DropDownProfile = () => {
                 <br></br>
                 <li>Mode</li>
                 <li onClick={() => navigate('/mysetting')}>Account Setting</li>
-                <li>Logout</li>
+                <li onClick={() => navigate('/')}>Logout</li>
             </ul>
         </div>
     )
