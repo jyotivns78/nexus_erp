@@ -9,6 +9,12 @@ import { Link } from "react-router-dom";
 
 
 const LoginDark = () => {
+    // testing code start
+
+    
+    // testing code end
+   
+   
     return (
         <div className="logincontainer">
 
@@ -22,12 +28,14 @@ const LoginDark = () => {
 
                         <div className="mail">
                             <input type="email" name="email" placeholder="Email" required />
+                            
                         </div>
 
                         <FontAwesomeIcon icon={faEye} className="eye-icon"></FontAwesomeIcon>
 
                         <div className="password">
                             <input type="password" name="password" placeholder="Password" required />
+                            
                             <Link className="forget-link">Forget Password</Link>
                         </div>
 
