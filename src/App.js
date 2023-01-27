@@ -8,6 +8,7 @@ import Personal from './pages/Personal';
 import AdminProfile from './pages/AdminProfile';
 import MyProfile from './pages/MyProfile';
 import AccountSetting from './pages/AccountSetting';
+import Signup from './pages/Signup';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='/admin' element={ <AdminProfile /> } />
       <Route path='/myprofile' element={ <MyProfile /> } />
       <Route path='/mysetting' element={ <AccountSetting /> } />
+      <Route path='/signup' element={ <Signup /> } />
     </Routes>
    </Router>
   );
