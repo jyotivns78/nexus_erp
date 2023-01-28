@@ -52,10 +52,7 @@
 /* background: #5199ec; */
 /* background: rgb(7, 148, 148); */
 background: rgb(6, 121, 121);
-
-
-
-/*  */
+/* box-shadow: -5px -5px 5px -5px rgb(6, 121, 121); */
 
 /* background: #96d9e2; */
     border-radius: 12px 0px 0px 12px;
@@ -183,9 +180,10 @@ background: rgb(6, 121, 121);
     /* background: #68d388; */
     /* background: #ffaaab; */
     /* background: #b4664e; */
-    background: #FF595A;
+    background: #c29591;
     /* background: #EF3B33; */
     border-radius: 0px 12px 12px 0px;
+    /* box-shadow: -5px 0px 5px 0px #75c9b7; */
 }
 
 .signup-right img

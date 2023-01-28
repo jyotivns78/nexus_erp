@@ -10,6 +10,9 @@ import MyProfile from './pages/MyProfile';
 import AccountSetting from './pages/AccountSetting';
 import Signup from './pages/Signup';
 import Attendence from './pages/Attendence';
+import CompanyLead from './pages/CompanyLead';
+
+
 
 
 function App() {
@@ -26,6 +29,7 @@ function App() {
       <Route path='/mysetting' element={ <AccountSetting /> } />
       <Route path='/signup' element={ <Signup /> } />
       <Route path='/attendence' element={ <Attendence /> } />
+      <Route path='/companylead' element={ <CompanyLead /> } />
     </Routes>
    </Router>
   );
