@@ -10,9 +10,11 @@ import signup from '../images/login/signup.png';
 
 
 const Signup = () => {
+
     return(
         <div className="signup-container">
-            <img src={ nexusLogo } className="logo" alt="nexusLogo" />
+            {/* <img src={ nexusLogo } className="logo" alt="nexusLogo" /> */}
+            <div className="main-container">
             <div className="signup-left">
                 <form>
                 <img src={ roundLogo } alt="roundLogo" />
@@ -27,6 +29,7 @@ const Signup = () => {
             <div className="signup-right">
                 <img src={ signup } alt="signup" />
                 <p>The Process of working collaboratively with a group of people in order to achieve a goal.</p>
+            </div>
             </div>
         </div>
     )

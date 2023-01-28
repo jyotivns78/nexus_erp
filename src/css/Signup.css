@@ -26,15 +26,38 @@
     background: url('../images/login/logonexus.png');
 }
 
+.main-container
+{
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
 .signup-left
 {
     position: absolute;
     width: 450px;
     height: 450px;
-    left: 210px;
-    top: 122px;
+    left: 230px;
+    top: 100px;
+/* background: #5199ec; */
+/* background: rgb(7, 148, 148); */
+background: rgb(6, 121, 121);
 
-    background: #01164D;
+
+
+/*  */
+
+/* background: #96d9e2; */
     border-radius: 12px 0px 0px 12px;
 }
 
@@ -127,7 +150,8 @@
     top: 285px;
     border-radius: 10px;
     border: 1px solid #FFFFFF;
-    background: #2e56bb;
+    /* background: #2e56bb; */
+    background: rgb(6, 80, 80);
     color: #FFFFFF;
     font-size: 18px;
     font-style: normal;
@@ -153,10 +177,14 @@
     position: absolute;
     width: 450px;
     height: 450px;
-    left: 660px;
-    top: 122px;
-
-    background: #FF7439;
+    left: 680px;
+    top: 100px;
+    /* background: #2d545e; */
+    /* background: #68d388; */
+    /* background: #ffaaab; */
+    /* background: #b4664e; */
+    background: #FF595A;
+    /* background: #EF3B33; */
     border-radius: 0px 12px 12px 0px;
 }
 
@@ -175,9 +203,9 @@
     width: 315px;
     height: 45px;
     top: 360px;
-    left: 80px;
+    left: 75px;
 
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
